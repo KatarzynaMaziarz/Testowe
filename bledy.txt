@@ -1,0 +1,74 @@
+5 błędów na stronie obliczakcyze.pl:
+
+ID: 001
+Tytuł: 
+W polu „Zapłacono za auto” można wpisać ujemną kwotę.
+Środowisko:
+Windows 10 Home, Wersja 103.0.5060.134 (64-bitowa).
+Kroki reprodukcji: 
+1.	Wejdź na stronę https://obliczakcyze.pl/
+2.	W formularzu „Internetowy kalkulator akcyzy” w polu „Zapłacono za auto(w zł)” wpisz ujemną kwotę np. -1
+Oczekiwany rezultat:
+Nie da się wpisać ujemnej kwoty. Pole zostaje podkreślone na czerwono.
+Rzeczywisty rezultat:
+Brak walidacji. Kalkulator oblicza akcyzę dla ujemnej kwoty.
+
+ID: 002
+Tytuł:
+Nie działa możliwość obliczenia akcyzy na podstawie linku.
+Środowisko:
+Windows 10 Home, Wersja 103.0.5060.134 (64-bitowa).
+Kroki reprodukcji: 
+1.	Wejdź na stronę https://obliczakcyze.pl/
+2.	W polu „Wprowadź adres URL” wpisz link do dowolnej oferty sprzedaży samochodu z olx.pl i zatwierdź klawiszem Enter
+Oczekiwany rezultat:
+Kalkulator oblicza akcyzę.
+Rzeczywisty rezultat:
+Kalkulator nie oblicza akcyzy. Brak jakiejkolwiek akcji.
+
+
+
+ID: 003
+Tytuł: 
+Nie można skopiować linku.
+Środowisko:
+Windows 10 Home, Wersja 103.0.5060.134 (64-bitowa).
+Kroki reprodukcji: 
+1.	Wejdź na stronę https://obliczakcyze.pl/
+2.	Kliknij na przycisk „Kopiuj link”
+3.	Wyświetla się komunikat „Zaznacz klikając dwukrotnie na link i skopiuj:” i wygenerowany link
+4.	Kliknij dwukrotnie na podany link i spróbuj go skopiować
+Oczekiwany rezultat:
+Można zaznaczyć i skopiować link.
+Rzeczywisty rezultat:
+Nie da się zaznaczyć ani skopiować linku.
+
+ID: 004
+Tytuł: 
+Nie można udostępnić strony na facebook.com.
+Środowisko:
+Windows 10 Home, Wersja 103.0.5060.134 (64-bitowa).
+Kroki reprodukcji: 
+1.	Wejdź na stronę https://obliczakcyze.pl/
+2.	Zjedź na dół strony
+3.	Na środku strony widoczny jest banner z jadącym niebieskim samochodem
+4.	Kliknij przycisk „Udostępnij” w prawym dolnym rogu banneru
+Oczekiwany rezultat:
+Otwiera się nowe okno z możliwością zalogowania się do konta na facebook.com gdzie można udostępnić stronę https://obliczakcyze.pl.
+Rzeczywisty rezultat:
+W nowym oknie wyświetla się błąd „Aplikacja nieaktywna: Ta aplikacja nie jest teraz dostępna, a twórca aplikacji wie o tym problemie. Zalogowanie będzie możliwe po ponownym aktywowaniu aplikacji”.
+
+
+ID: 005
+Tytuł:  
+Tekst w polu „Koszty stałe (363 zł)” nie jest wyśrodkowany
+Środowisko:
+Windows 10 Home, Wersja 103.0.5060.134 (64-bitowa).
+Kroki reprodukcji: 
+1.	Wejdź na stronę https://obliczakcyze.pl/
+2.	Zwróć uwagę na pole „Koszty stałe (363 zł)”
+
+Oczekiwany rezultat:
+Tekst w polu „Koszty stałe (363zł)” powinien być wyśrodkowany jak pozostałe pola.
+Rzeczywisty rezultat:
+Tekst w polu „Koszty stałe (363zł)” jest przesunięty w prawo.
